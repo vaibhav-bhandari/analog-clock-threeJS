@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#fpsMeter {
+    position: absolute;
+    top: 5px;
+    left: 1%;
+}
+
+#axesContainer {
+    width: 150px;
+    height: 150px;
+    border: 0px black;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    z-index: 100;
+}
